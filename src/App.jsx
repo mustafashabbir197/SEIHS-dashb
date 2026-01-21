@@ -600,9 +600,13 @@ export default function Dashboard() {
                    3. Replace "/path/to/your/logo.png" with your actual image URL or local file path.
                 */}
                 <div className="bg-white p-1.5 rounded-full shadow-lg h-16 w-16 flex items-center justify-center">
-                    <SindhGovtIcon className="h-full w-full text-[#134f5c]" />
-                    {/* <img src="/your-logo.png" alt="Logo" className="h-full w-full object-contain" /> */}
-                </div>
+    {/* The SVG is removed, and the Image tag is active now: */}
+    <img 
+      src="/logo sindh govt.png" 
+      alt="Service Logo" 
+      className="h-full w-full object-contain" 
+    />
+</div>
                 <div>
                     <h1 className="text-2xl md:text-3xl font-bold tracking-tight leading-tight font-serif">
                     SIEHS Maternal Ambulance Service
